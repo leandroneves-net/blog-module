@@ -2,10 +2,12 @@
     "name": "leandroneves-net/blog-module",
     "type": "laravel-module",
     "description": "",
+    "license": "MIT",
+    "version": "0.0.1",
     "authors": [
         {
-            "name": "Nicolas Widart",
-            "email": "n.widart@gmail.com"
+            "name": "Leandro Neves",
+            "email": "leandro.dataworks@gmail.com"
         }
     ],
     "extra": {
@@ -26,6 +28,14 @@
     "autoload-dev": {
         "psr-4": {
             "Modules\\Blog\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "nwidart/laravel-modules": "^11.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "wikimedia/composer-merge-plugin": true
         }
     }
 }
